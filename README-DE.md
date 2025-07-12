@@ -6,6 +6,19 @@
 Ein Windows Tastatur-Layout für die ukrainische Sprache, 
 auf phonetischer Grundlage des deutschen Standard-Tastatur-Layouts.
 
+## Installation
+
+Laden Sie die neueste Release herunter, das ist derzeit
+[Version 1.0](releases/ukrdepho-1.0.zip). Entpacken Sie das Archiv
+in ein leeres Verzeichnis. Starten Sie `setup.exe`. Sie werden
+aufgefordert, diesen prozess mit Administratorrechten laufen zu lassen.
+Stimmen Sie zu. Das Layout wird nun auf Ihrem Rechner installiert.
+
+Aktivieren Sie in den Spracheinstellungen das ukrainische Sprachpaket,
+sofern nicht bereits geschehen. Sie haben dort die Auswahl zwischen
+mehreren Tastaturen. Wählen Sie dort
+`Ukrainian - Phonetic from german keyboard`. 
+
 ## ToDo
 
 Sowohl dieses Readme als auch das Layout selbst sind 
