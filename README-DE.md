@@ -85,27 +85,60 @@ Umschrift dort, die z.B. в als w statt v schreibt. Ich glaube aber,
 dass die scholary-Variante für jeden, der sich auch mit slawischen
 Sprachen mit lateinischer Schrift beschäftigt, eingänglicher ist.
 
-In allen Fällen, in denen diese Umschrift einen Buchstaben nennt,
+Zusätzlich zum Standard-Alphabet unterstützen wir auch das Symbol
+der ukrainischen Währung Hryvnia ₴.
+
+In allen Fällen, in denen die Umschrift einen Buchstaben nennt,
 der auf der deutschen Tastatur verfügbar ist, ordne ich die
 entsprechende Taste zu. In den anderen Fällen habe ich folgende
-Zuordnung verwendet:
+Zuordnungen verwendet:
 
 ```
-Є є	->	AltGr + e (AltGr + r rechts daneben für Großbuchstaben)
-Ж ж	->	AltGr + g (AltGr + h rechts daneben für Großbuchstaben)
-Ї ї	->	AltGr + i (AltGr + o rechts daneben für Großbuchstaben)
+Є є	->	^ danach e bzw. ^ danach E
+		AltGr + e (zusätzlich Shift für Großbuchstaben)
+Ж ж	->	^ danach g bzw. ^ danach G
+		AltGr + g (zusatzöich Shift für Großbuchstaben)
+		ö (entspricht der Belegung auf ukrainichen Tastaturen)
+Ї ї	->	^ danach i bzw. ^ danach I
+		AltGr + i (zusätzlich Shift für Großbuchstaben)
 Х х	->	x ( klingt anders, sieht aber genauso aus)
-Ч ч	->	AltGr + c (AltGr + v rechts daneben für Großbuchstaben)
+Ч ч	->	^ danach c bzw. ^ danach C
+		AltGr + c (zusätzlich Shift für Großbuchstaben)
 Ш ш	->	w ( klingt anders, sieht aber ähnlich aus)
-Щ щ	->	q ( liegt direkt neben w, dem ähnlichen ш) 
-Ь ь	->	AltGr + b (AltGr + n rechts daneben für Großbuchstaben)
-Ю ю	->	ü ( klingt anders, aber beides sind Varianten von u )
-Я я	->	AltGr + a (AltGr + s rechts daneben für Großbuchstaben)
-’	->	' ( wie schon auf der deutschen Tastatur vorhanden, Shift + #)
+Щ щ	->	^ danach w bzw. ^ danach W
+		AltGr + w (zusätzlich Shift für Großbuchstaben)
+		q ( liegt direkt neben w, dem ähnlichen ш) 
+Ь ь	->	^ danach b bzw. ^ danach B
+		AltGr + b (zusätzlich Shift für Großbuchstaben)
+Ю ю	->	^ danach u bzw. ^ danach U
+		AltGr + u (zusätzlich Shift für Großbuchstaben)
+		ü ( klingt anders, aber beides sind Varianten von u )
+Я я	->	^ danach a bzw. ^ danach A
+		AltGr + a (zusätzlich Shift für Großbuchstaben)
+		ä ( klingt anders, aber beides sind Varianten von a )
+’	->	' ( Shift + #, anderer Unicode Character, sieht aber fast genauso aus )
+₴	->	^ danach h
+		AltGr + h
 ```
-Den Buchstaben ж legen wir zusätzlich auf ö, was sonst keine Verwendung
-hätte und der Belegung auf physikalischen ukrainischen Tastaturen
-entspricht.
+
+Wie man sieht, kann man in vielen Fällen denselben Buchstaben auf
+unterschiedliche Weise erzeugen - je nach persönlichem Geschmack und
+und je nachdem, was man sich am besten merken kann. 
+
+Die Tot-Taste ´ vor einem beliebigen Buchstaben (oder einem beliebigen
+Buchstaben mit Shift) erzeugt den deutschen originalbuchstaben. Die
+Shift-Tot-Taste \` hat keine Funktion. Möchte man akzentuierte
+lateinische Buchstaben tippen, für die auf der deutschen Tastatur
+eine der Tot-Tasten ^´\` benötigt wird, so muss man die Eingabesprache
+wechseln, etwa mit Shift+Alt.
+
+## Rückmeldungen
+
+Wenn Ihnen etwas am layout nicht gefällt, können Sie es für sich selbst
+leicht mit dem Microsoft Keyboard Layout Creator ändern (siehe oben).
+Falls Sie der Meinung sind, dass Ihre Anpassung von allgemeinem
+Interesse ist, freue ich mich über eine Rückmeldung unter
+wolfgang.kronberg@gmail.com .
 
 ## Juristisches
 
@@ -115,20 +148,3 @@ verwenden und weiterzugeben.
 
 Die Symbolbilder aus diesem Readme stammen von
 https://www.freeflagicons.com/ .
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
