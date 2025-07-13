@@ -82,7 +82,7 @@
 ## Призначення клавіш
 
 [Німецька Вікіпедія](https://de.wikipedia.org/wiki/Umschrift_des_ukrainischen_kyrillischen_Alphabets#Tabellen_zu_den_verschiedenen_Umschrift-_und_Romanisierungsvarianten)
-згадує наступну звичайну 'наукову' транслітерацію
+згадує наступну звичайну 'scholarly' транслітерацію
 для українського алфавіту:
 
 ```

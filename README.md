@@ -123,7 +123,7 @@ for the Ukrainian alphabet:
 '	->	-
 ```
 
-This is the version I follow. There is also a 'German' transliteration
+This is the version we follow. There is also a 'German' transliteration
 there that writes, e.g., `в` as `w` instead of `v`. However, we believe that
 the scholarly variant is more intuitive for anyone who also deals
 with Slavic languages with Latin script.
