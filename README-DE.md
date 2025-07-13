@@ -13,6 +13,19 @@ Work in Progress. Dieser Abschnitt wird entfernt, sobald das
 Layout fertig und von mindestens einem ukrainischen Natursprachler,
 der auch gut Deutsch spricht, abgenommen wurde.
 
+## Das Layout
+
+In diesem Layout befinden sich ukrainische Buchstaben dort, wo man
+sie bei einerTastatur mit deutscher Beschriftung intuitiv erwarten
+würde. So findet man etwa `д` auf der Taste `d` oder `й` auf der
+Taste `j`, weil beides der identische Laut ist. So sieht das Layout
+insgesamt aus (normal, mit Shift, und mit AltGr):
+
+![Layout - standard](readme-files/layout-standard.png)
+![Layout - shift](readme-files/layout-shift.png)
+![Layout - AltGr](readme-files/layout-altgr.png)
+
+
 ## Installation
 
 Laden Sie die neueste Version herunter, das ist derzeit
