@@ -124,7 +124,7 @@ for the Ukrainian alphabet:
 ```
 
 This is the version I follow. There is also a 'German' transliteration
-there that writes, e.g., в as w instead of v. However, we believe that
+there that writes, e.g., `в` as `w` instead of `v`. However, we believe that
 the scholarly variant is more intuitive for anyone who also deals
 with Slavic languages with Latin script.
 
@@ -185,6 +185,7 @@ you must switch the input language, for example with `Shift+Alt`.
 
 If you don't like something about the layout, you can easily
 change it for yourself with the Microsoft Keyboard Layout Creator (see above).
+The source code is available in `/src/`. 
 If you believe your adjustment to be of general interest, I'd be happy
 to receive feedback at wolfgang.kronberg@gmail.com.
 

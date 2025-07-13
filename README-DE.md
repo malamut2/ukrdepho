@@ -70,13 +70,13 @@ haben.
 
 Für alle, die mit einer deutschen Tastatur arbeiten und kein
 ukrainisches Layout fest im Gedächtnis haben, kann es von Vorteil
-sein, sich an den auf der deutschen tastatur aufgedruckten Buchstaben
-zu orientieren. Die meisten ukrainischen Buchstaben haben ja im
+sein, sich an den auf der deutschen Tastatur aufgedruckten Buchstaben
+zu orientieren. Die meisten ukrainischen Buchstaben haben im
 Deutschen eine 1:1 Entsprechung für denselben Laut.
 
 Man benötigt also ein Layout, das den deutschen Tasten für die
 ukrainische Sprache so weit wie möglich folgt. Windows 11 scheint
-so etwas leider nicht anzubieten, daher gibt es nun hier eines als
+so etwas leider nicht anzubieten, daher gibt es nun hiermit eines als
 Open Source. Das Layout wurde mit dem
 [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
 erstellt, als Basis diente das deutsche Standard-Layout.
@@ -125,7 +125,7 @@ für das ukrainische Alphabet:
 ```
 
 An dieser Version orientieren wir uns. Es gibt zwar auch eine 'deutsche'
-Umschrift dort, die z.B. в als w statt v schreibt. Wir glauben aber,
+Umschrift dort, die z.B. `в` als `w` statt `v` schreibt. Wir glauben aber,
 dass die scholarly-Variante für jeden, der sich auch mit slawischen
 Sprachen mit lateinischer Schrift beschäftigt, eingängiger ist.
 
@@ -189,6 +189,7 @@ etwa mit `Shift+Alt`.
 
 Wenn Ihnen etwas am Layout nicht gefällt, können Sie es für sich selbst
 leicht mit dem Microsoft Keyboard Layout Creator ändern (siehe oben).
+Der Quelltext liegt in `/src/`.
 Falls Sie der Meinung sind, dass Ihre Anpassung von allgemeinem
 Interesse ist, freue ich mich über eine Rückmeldung unter
 wolfgang.kronberg@gmail.com.
