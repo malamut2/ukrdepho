@@ -18,7 +18,7 @@ der auch gut Deutsch spricht, abgenommen wurde.
 In diesem Layout befinden sich ukrainische Buchstaben dort, wo man
 sie bei einerTastatur mit deutscher Beschriftung intuitiv erwarten
 würde. So findet man etwa `д` auf der Taste `d` oder `й` auf der
-Taste `j`, weil da jeweils im Deutschen der identische Laut ist.
+Taste `j`, weil das jeweils im Deutschen der identische Laut ist.
 So sieht das Layout insgesamt aus (normal, mit Shift, und mit AltGr):
 
 ![Layout - standard](readme-files/layout-standard.png)
@@ -33,6 +33,8 @@ Laden Sie die neueste Version herunter, das ist derzeit
 in ein leeres Verzeichnis. Starten Sie `setup.exe`. Sie werden
 aufgefordert, diesen Prozess mit Administratorrechten laufen zu lassen.
 Stimmen Sie zu. Das Layout wird nun auf Ihrem Rechner installiert.
+Sie können nun das Verzeichnis löschen, in das Sie
+die Installationsdateien entpackt hatten.
 
 Aktivieren Sie in den Spracheinstellungen das ukrainische Sprachpaket,
 sofern nicht bereits geschehen.
