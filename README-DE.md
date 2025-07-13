@@ -6,25 +6,42 @@
 Ein Windows Tastatur-Layout für die ukrainische Sprache, 
 auf phonetischer Grundlage des deutschen Standard-Tastatur-Layouts.
 
+## ToDo
+
+Sowohl dieses Readme als auch das Layout selbst sind
+Work in Progress. Dieser Abschnitt wird entfernt, sobald das
+Layout fertig und von mindestens einem ukrainischen Natursprachler,
+der auch gut deutsch spricht, abgenommen wurde.
+
 ## Installation
 
 Laden Sie die neueste Release herunter, das ist derzeit
 [Version 1.0](releases/ukrdepho-1.0.zip). Entpacken Sie das Archiv
 in ein leeres Verzeichnis. Starten Sie `setup.exe`. Sie werden
-aufgefordert, diesen prozess mit Administratorrechten laufen zu lassen.
+aufgefordert, diesen Prozess mit Administratorrechten laufen zu lassen.
 Stimmen Sie zu. Das Layout wird nun auf Ihrem Rechner installiert.
 
 Aktivieren Sie in den Spracheinstellungen das ukrainische Sprachpaket,
-sofern nicht bereits geschehen. Sie haben dort die Auswahl zwischen
+sofern nicht bereits geschehen.
+
+![Install layout - step 1](readme-files/choose-layout-1.png)
+
+Sie haben dort die Auswahl zwischen
 mehreren Tastaturen. Wählen Sie dort
-`Ukrainian - Phonetic from german keyboard`. 
+`Ukrainian - Phonetic from german keyboard`.
 
-## ToDo
+![Install layout - step 1](readme-files/choose-layout-2.png)
 
-Sowohl dieses Readme als auch das Layout selbst sind 
-Work in Progress. Dieser Abschnitt wird entfernt, sobald das
-Layout fertig und von mindestens einem ukrainischen Natursprachler,
-der auch gut deutsch spricht, abgenommen wurde.
+Falls es Probleme mit der Aktivierung der Tastatur gibt, können folgende
+Schritte hilfreich sein:
+
+* UTF-8 für Windows aktivieren. Das ist ganz allgemein eine gute Idee
+  für jeden, der mit mehr Sprachen als im westlichen Raum zu tun hat.
+
+![Activate UTF-8 in Windows](readme-files/windows-utf-8.png)
+
+* Andere ukrainische Tastaturkonfigurationen vorübergehend deaktivieren
+* Windows neu starten
 
 ## Motivation
 
@@ -107,47 +124,56 @@ entsprechende Taste zu. In den anderen Fällen habe ich folgende
 Zuordnungen verwendet:
 
 ```
+Х х	->	x ( klingt anders, sieht aber genauso aus)
+Ш ш	->	w ( klingt anders, sieht aber ähnlich aus)
+’	->	' ( Shift + #, sieht ähnlich aus wie das deutsche Apostroph )
+
+Щ щ	->	q ( liegt direkt außen neben ш, analog zu ukrainischen Tastaturen)
+		^ danach w bzw. ^ danach W
+		AltGr + w (zusätzlich Shift für Großbuchstaben)
+Я я	->	ä ( klingt anders, aber beides sind Varianten von a )
+		^ danach a bzw. ^ danach A
+		AltGr + a (zusätzlich Shift für Großbuchstaben)
+Ж ж	->	ö (entspricht der Belegung auf ukrainichen Tastaturen)
+		^ danach g bzw. ^ danach G
+		AltGr + g (zusatzlich Shift für Großbuchstaben)
+Ю ю	->	ü ( klingt anders, aber beides sind Varianten von u )
+		^ danach u bzw. ^ danach U
+		AltGr + u (zusätzlich Shift für Großbuchstaben)
+
 Є є	->	^ danach e bzw. ^ danach E
 		AltGr + e (zusätzlich Shift für Großbuchstaben)
-Ж ж	->	^ danach g bzw. ^ danach G
-		AltGr + g (zusatzöich Shift für Großbuchstaben)
-		ö (entspricht der Belegung auf ukrainichen Tastaturen)
 Ї ї	->	^ danach i bzw. ^ danach I
 		AltGr + i (zusätzlich Shift für Großbuchstaben)
-Х х	->	x ( klingt anders, sieht aber genauso aus)
 Ч ч	->	^ danach c bzw. ^ danach C
 		AltGr + c (zusätzlich Shift für Großbuchstaben)
-Ш ш	->	w ( klingt anders, sieht aber ähnlich aus)
-Щ щ	->	^ danach w bzw. ^ danach W
-		AltGr + w (zusätzlich Shift für Großbuchstaben)
-		q ( liegt direkt neben w, dem ähnlichen ш) 
 Ь ь	->	^ danach b bzw. ^ danach B
 		AltGr + b (zusätzlich Shift für Großbuchstaben)
-Ю ю	->	^ danach u bzw. ^ danach U
-		AltGr + u (zusätzlich Shift für Großbuchstaben)
-		ü ( klingt anders, aber beides sind Varianten von u )
-Я я	->	^ danach a bzw. ^ danach A
-		AltGr + a (zusätzlich Shift für Großbuchstaben)
-		ä ( klingt anders, aber beides sind Varianten von a )
-’	->	' ( Shift + #, anderer Unicode Character, sieht aber fast genauso aus )
 ₴	->	^ danach h
 		AltGr + h
 ```
 
 Wie man sieht, kann man in vielen Fällen denselben Buchstaben auf
 unterschiedliche Weise erzeugen - je nach persönlichem Geschmack und
-und je nachdem, was man sich am besten merken kann. 
+und je nachdem, was man sich am besten merken kann.
+
+Die Systematik
+für die Dach-Tot-Taste ^ ist, dass man mit ihr jeweils die passende
+weiche Form bekommt. Im Fall von ж haben wir uns als Basis für g
+entschieden, weil der entsprechende Laut im Wort 'Garage' dem
+Deutschen näher liegt als das wissenschaftlich näherliegende z.
 
 Die Tot-Taste ´ vor einem beliebigen Buchstaben (oder einem beliebigen
-Buchstaben mit Shift) erzeugt den deutschen originalbuchstaben. Die
-Shift-Tot-Taste \` hat keine Funktion. Möchte man akzentuierte
-lateinische Buchstaben tippen, für die auf der deutschen Tastatur
-eine der Tot-Tasten ^´\` benötigt wird, so muss man die Eingabesprache
-wechseln, etwa mit Shift+Alt.
+Buchstaben mit Shift, oder AltGr für das Eurozeichen €) 
+erzeugt den deutschen Originalbuchstaben. Die Shift-Tot-Taste \` 
+hat keine Funktion. Möchte man akzentuierte lateinische Buchstaben 
+tippen, für die auf der deutschen Tastatur eine der Tot-Tasten ^, ´
+oder \` benötigt wird, so muss man die Eingabesprache wechseln, 
+etwa mit Shift+Alt.
 
 ## Rückmeldungen
 
-Wenn Ihnen etwas am layout nicht gefällt, können Sie es für sich selbst
+Wenn Ihnen etwas am Layout nicht gefällt, können Sie es für sich selbst
 leicht mit dem Microsoft Keyboard Layout Creator ändern (siehe oben).
 Falls Sie der Meinung sind, dass Ihre Anpassung von allgemeinem
 Interesse ist, freue ich mich über eine Rückmeldung unter
