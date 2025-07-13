@@ -11,11 +11,11 @@ auf phonetischer Grundlage des deutschen Standard-Tastatur-Layouts.
 Sowohl dieses Readme als auch das Layout selbst sind
 Work in Progress. Dieser Abschnitt wird entfernt, sobald das
 Layout fertig und von mindestens einem ukrainischen Natursprachler,
-der auch gut deutsch spricht, abgenommen wurde.
+der auch gut Deutsch spricht, abgenommen wurde.
 
 ## Installation
 
-Laden Sie die neueste Release herunter, das ist derzeit
+Laden Sie die neueste Version herunter, das ist derzeit
 [Version 1.0](releases/ukrdepho-1.0.zip). Entpacken Sie das Archiv
 in ein leeres Verzeichnis. Starten Sie `setup.exe`. Sie werden
 aufgefordert, diesen Prozess mit Administratorrechten laufen zu lassen.
@@ -70,7 +70,7 @@ erstellt, als Basis diente das deutsche Standard-Layout.
 ## Zuordnung der Tasten
 
 Die [deutsche Wikipedia](https://de.wikipedia.org/wiki/Umschrift_des_ukrainischen_kyrillischen_Alphabets#Tabellen_zu_den_verschiedenen_Umschrift-_und_Romanisierungsvarianten)
-nennt die folgende übliche 'scholary' Umschrift 
+nennt die folgende übliche 'scholarly' Umschrift 
 für das ukrainische Alphabet:
 
 ```
@@ -112,8 +112,8 @@ für das ukrainische Alphabet:
 
 An dieser orientiere ich mich. Es gibt zwar auch eine 'deutsche'
 Umschrift dort, die z.B. в als w statt v schreibt. Ich glaube aber,
-dass die scholary-Variante für jeden, der sich auch mit slawischen
-Sprachen mit lateinischer Schrift beschäftigt, eingänglicher ist.
+dass die scholarly-Variante für jeden, der sich auch mit slawischen
+Sprachen mit lateinischer Schrift beschäftigt, eingängiger ist.
 
 Zusätzlich zum Standard-Alphabet unterstützen wir auch das Symbol
 der ukrainischen Währung Hryvnia ₴.
@@ -154,7 +154,7 @@ Zuordnungen verwendet:
 ```
 
 Wie man sieht, kann man in vielen Fällen denselben Buchstaben auf
-unterschiedliche Weise erzeugen - je nach persönlichem Geschmack und
+unterschiedliche Weise erzeugen - je nach persönlichem Geschmack
 und je nachdem, was man sich am besten merken kann.
 
 Die Systematik
@@ -177,7 +177,7 @@ Wenn Ihnen etwas am Layout nicht gefällt, können Sie es für sich selbst
 leicht mit dem Microsoft Keyboard Layout Creator ändern (siehe oben).
 Falls Sie der Meinung sind, dass Ihre Anpassung von allgemeinem
 Interesse ist, freue ich mich über eine Rückmeldung unter
-wolfgang.kronberg@gmail.com .
+wolfgang.kronberg@gmail.com.
 
 ## Juristisches
 
