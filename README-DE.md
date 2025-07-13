@@ -25,7 +25,6 @@ So sieht das Layout insgesamt aus (normal, mit Shift, und mit AltGr):
 ![Layout - shift](readme-files/layout-shift.png)
 ![Layout - AltGr](readme-files/layout-altgr.png)
 
-
 ## Installation
 
 Laden Sie die neueste Version herunter, das ist derzeit
@@ -33,8 +32,8 @@ Laden Sie die neueste Version herunter, das ist derzeit
 in ein leeres Verzeichnis. Starten Sie `setup.exe`. Sie werden
 aufgefordert, diesen Prozess mit Administratorrechten laufen zu lassen.
 Stimmen Sie zu. Das Layout wird nun auf Ihrem Rechner installiert.
-Sie können nun das Verzeichnis löschen, in das Sie
-die Installationsdateien entpackt hatten.
+Sie können nach Abschluss der Installation das Verzeichnis löschen,
+in das Sie die Installationsdateien entpackt hatten.
 
 Aktivieren Sie in den Spracheinstellungen das ukrainische Sprachpaket,
 sofern nicht bereits geschehen.
@@ -42,7 +41,7 @@ sofern nicht bereits geschehen.
 ![Install layout - step 1](readme-files/choose-layout-1.png)
 
 Sie haben dort die Auswahl zwischen
-mehreren Tastaturen. Wählen Sie dort
+mehreren Tastaturen. Wählen Sie
 `Ukrainian - Phonetic from german keyboard`.
 
 ![Install layout - step 1](readme-files/choose-layout-2.png)
