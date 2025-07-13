@@ -19,7 +19,7 @@ In diesem Layout befinden sich ukrainische Buchstaben dort, wo man
 sie bei einerTastatur mit deutscher Beschriftung intuitiv erwarten
 würde. So findet man etwa `д` auf der Taste `d` oder `й` auf der
 Taste `j`, weil das jeweils im Deutschen der identische Laut ist.
-So sieht das Layout insgesamt aus (normal, mit Shift, und mit AltGr):
+So sieht das Layout insgesamt aus (normal, mit `Shift`, und mit `AltGr`):
 
 ![Layout - standard](readme-files/layout-standard.png)
 ![Layout - shift](readme-files/layout-shift.png)
@@ -124,8 +124,8 @@ für das ukrainische Alphabet:
 ’	->	-
 ```
 
-An dieser orientiere ich mich. Es gibt zwar auch eine 'deutsche'
-Umschrift dort, die z.B. в als w statt v schreibt. Ich glaube aber,
+An dieser Version orientieren wir uns. Es gibt zwar auch eine 'deutsche'
+Umschrift dort, die z.B. в als w statt v schreibt. Wir glauben aber,
 dass die scholarly-Variante für jeden, der sich auch mit slawischen
 Sprachen mit lateinischer Schrift beschäftigt, eingängiger ist.
 
@@ -133,8 +133,8 @@ Zusätzlich zum Standard-Alphabet unterstützen wir auch das Symbol
 der ukrainischen Währung Hryvnia ₴.
 
 In allen Fällen, in denen die Umschrift einen Buchstaben nennt,
-der auf der deutschen Tastatur verfügbar ist, ordne ich die
-entsprechende Taste zu. In den anderen Fällen habe ich folgende
+der auf der deutschen Tastatur verfügbar ist, ordnen wir die
+entsprechende Taste zu. In den anderen Fällen haben wir folgende
 Zuordnungen verwendet:
 
 ```
@@ -172,18 +172,18 @@ unterschiedliche Weise erzeugen - je nach persönlichem Geschmack
 und je nachdem, was man sich am besten merken kann.
 
 Die Systematik
-für die Dach-Tot-Taste ^ ist, dass man mit ihr jeweils die passende
-weiche Form bekommt. Im Fall von ж haben wir uns als Basis für g
+für die Dach-Tot-Taste `^` ist, dass man mit ihr jeweils die passende
+weiche Form bekommt. Im Fall von `ж` haben wir uns als Basis für `g`
 entschieden, weil der entsprechende Laut im Wort 'Garage' dem
-Deutschen näher liegt als das wissenschaftlich näherliegende z.
+Deutschen näher liegt als das wissenschaftlich näherliegende `z`.
 
-Die Tot-Taste ´ vor einem beliebigen Buchstaben (oder einem beliebigen
-Buchstaben mit Shift, oder AltGr für das Eurozeichen €) 
-erzeugt den deutschen Originalbuchstaben. Die Shift-Tot-Taste \` 
+Die Tot-Taste `´` vor einem beliebigen Buchstaben (oder einem beliebigen
+Buchstaben mit `Shift`, oder `AltGr` für das Eurozeichen `€`) 
+erzeugt den deutschen Originalbuchstaben. Die Shift-Tot-Taste `` ` `` 
 hat keine Funktion. Möchte man akzentuierte lateinische Buchstaben 
-tippen, für die auf der deutschen Tastatur eine der Tot-Tasten ^, ´
-oder \` benötigt wird, so muss man die Eingabesprache wechseln, 
-etwa mit Shift+Alt.
+tippen, für die auf der deutschen Tastatur eine der Tot-Tasten `^`, `´`
+oder `` ` `` benötigt wird, so muss man die Eingabesprache wechseln, 
+etwa mit `Shift+Alt`.
 
 ## Rückmeldungen
 
