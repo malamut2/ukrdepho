@@ -18,8 +18,8 @@ der auch gut Deutsch spricht, abgenommen wurde.
 In diesem Layout befinden sich ukrainische Buchstaben dort, wo man
 sie bei einerTastatur mit deutscher Beschriftung intuitiv erwarten
 würde. So findet man etwa `д` auf der Taste `d` oder `й` auf der
-Taste `j`, weil beides der identische Laut ist. So sieht das Layout
-insgesamt aus (normal, mit Shift, und mit AltGr):
+Taste `j`, weil da jeweils im Deutschen der identische Laut ist.
+So sieht das Layout insgesamt aus (normal, mit Shift, und mit AltGr):
 
 ![Layout - standard](readme-files/layout-standard.png)
 ![Layout - shift](readme-files/layout-shift.png)
